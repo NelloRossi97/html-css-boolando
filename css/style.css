@@ -97,6 +97,7 @@ a{
 
 .item:hover .img-hover{
     display: block;
+    cursor: pointer;
 }
 
 .sale{
