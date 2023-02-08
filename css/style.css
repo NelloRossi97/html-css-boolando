@@ -82,9 +82,21 @@ a{
     width: 400px;
 }
 
-
 .item{
     position: relative;
+}
+
+.item .img-hover{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: none;
+}
+
+.item:hover .img-hover{
+    display: block;
 }
 
 .sale{
