@@ -36,6 +36,10 @@ li{
     padding: 10px;
 }
 
+h2{
+    text-transform: uppercase;
+    font-size: 1em;
+}
 /* header */
 header{
     background-color: var(--bg-header);
@@ -70,6 +74,10 @@ a{
     width: 400px;
 }
 
+.item{
+    padding-top: 50px;
+}
+
 /* utilities */
 .text-white{
     color: var(--text-white);
@@ -89,4 +97,12 @@ a{
 
 .bg-foot{
     background-color: var(--bg-footer);
+}
+
+.text-line{
+    text-decoration: line-through;
+}
+
+.text-bold{
+    font-weight: bold;
 }
