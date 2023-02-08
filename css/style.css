@@ -95,6 +95,10 @@ a{
     bottom: 90px;
 }
 
+.container-items:last-child .sostenibility{
+    left:0;
+}
+
 
 .heart{
     background-color: var(--text-white);
