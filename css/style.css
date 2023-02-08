@@ -48,6 +48,8 @@ header{
     background-color: var(--bg-header);
     width: 100vw;
     box-shadow: 0 2px rgba(0, 0, 0, 0.3);
+    position: fixed;
+    z-index: 1000;
 }
 
 nav img{
@@ -75,7 +77,7 @@ a{
 
 /* main */
 .container-items{
-    padding: 60px 0;
+    padding: 150px 0;
 }
 
 .item img{
