@@ -76,8 +76,25 @@ a{
 
 .item{
     padding-top: 50px;
+    position: relative;
 }
 
+.sale{
+    width: 3.5rem;
+    text-align: center;
+    padding: 5px 0;
+    position: absolute;
+    left: 0;
+    bottom: 90px;
+}
+
+.sostenibility{
+    text-align: center;
+    padding: 5px 5px;
+    position: absolute;
+    left: 3.8rem;
+    bottom: 90px;
+}
 /* utilities */
 .text-white{
     color: var(--text-white);
